@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: black;
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 70px;
+            background-color: #ffc107;
+            /* position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 900; */
+        }
+
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            font-size: 1.1rem;
+            color: black;
+        }
+
+        .hr_class {
+            border: 0;
+            height: 1.5px;
+            margin: 60px 84px;
+            background-color: #ffc107;
+        }
+
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            margin: 130px 0;
+            align-items: center;
+
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+            font-size: 2.8rem;
+
+        }
+
+        .rigthSection {
+            width: 80%;
+        }
+
+        .purple {
+            color: rgb(182, 89, 14);
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+        }
+
+        .secondSection h1 {
+            font-size: 2.2rem;
+            color: rgb(212, 46, 46);
+        }
+
+        .secondSection p {
+            font-size: 1.3rem;
+            margin: auto;
+            /* font-weight: 100; */
+        }
+
+        .secondSection h2 {
+            color: rgb(196, 107, 25);
+        }
+
+        .secondSection .box {
+            background: white;
+            width: 50vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondSection .VerticalLines {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 100px;
+        }
+
+        .secondSection .Edu-icon {
+            height: 40px;
+            position: relative;
+            top: -41px;
+            left: -9px
+        }
+
+        .secondSection .Tenth-title {
+            position: relative;
+            top: 58px;
+            width: 150px;
+
+        }
+
+        .secondSection .Tenth-desc {
+            position: relative;
+            top: 70px;
+            width: 150px;
+            color: grey;
+            /* font-size: 12px; */
+        }
+
+        .secondSection .certifi_List {
+            margin-left: 7%;
+        }
+
+        .secondSection .skill_icon {
+            height: 60px;
+            position: relative;
+            margin-left: 10%;
+        }
+
+        .secondSection .coding {
+            margin-left: 7%;
+        }
+
+        .thirdSection {
+            max-width: 80vw;
+            margin: auto;
+        }
+
+        .thirdSection h1 {
+            font-size: 2.2rem;
+            color: rgb(212, 46, 46);
+        }
+
+        .thirdSection p {
+            font-size: 1.3rem;
+            margin: auto;
+            font-weight: 100;
+        }
+
+        .thirdSection h2 {
+            color: rgb(196, 107, 25);
+        }
+
+        .thirdSection .project_list a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .thirdSection .project_list a:hover {
+            font-size: 1.4rem;
+            color: white;
+        }
+
+        .forthSection {
+            max-width: 80vw;
+            margin: auto;
+        }
+
+        .forthSection h1 {
+            font-size: 2.2rem;
+            color: rgb(212, 46, 46);
+        }
+
+        .forthSection .contact_icon {
+            background-color: white;
+            height: 60px;
+            position: relative;
+            margin-left: 5%;
+        }
+
+        .forthSection .contact_iconTwo {
+            /* background-color: white; */
+            height: 70px;
+            position: relative;
+            margin-left: 5%;
+        }
+
+        footer {
+            background-color: #ffc107;
+
+        }
+
+        .footer_class {
+            display: flex;
+            padding: 23px 122px;
+        }
+
+        footer .footer-textCenter {
+            text-align: center;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left" style="color:black">Vaishnavi Kumari</div>
+            <div class="right">
+                <ul >
+                    <li><a href="#firstSectionid" style="color:black">Home</a></li>
+                    <li><a href="#secondSectionid" style="color:black">About Me</a></li>
+                    <li><a href="#thirdSectionid" style="color:black">Projects</a></li>
+                    <li><a target="_main" href="https://drive.google.com/file/d/1ySyMtu_O-2aqVoWZK_TmO1Wcm_Y5U00Y/view" style="color:black">Resume</a></li>
+                    <li><a href="#forthSectionid" style="color:black">Contact </a></li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection" id="firstSectionid">
+            <div class="leftSection">
+                <small>HELLO !</small>
+                <span class="purple" style="color:#ffc107"></span>
+                <div  style="color:#ffc107">I'm <br> Vaishnavi Kumari</div>
+                <!-- <div>Java Developer and</div> -->
+                <div>Front-End Developer</div>
+            </div>
+            <div class="rigthSection">
+                <img src="ABP.png" height="300px">
+            </div>
+        </section>
+
+        <hr class="hr_class">
+
+        <section id="secondSectionid" class="secondSection">
+            <h1 style="color:#ffc107">ABOUT</h1>
+            <br>
+            <p>Welcome to my portfolio! I'm Vaishnavi Kumari, a final-year B.Tech student with a deep passion for technology. I love diving into new technologies and expanding my skills every day. Web development is my playground where I turn ideas into innovative solutions. Join me on this exciting journey as I learn, grow, and create. Let's make something amazing together!</p><br><br>
+
+            <h2 style="color:#ffc107">Educational Background</h2><br>
+
+            <div class="box">
+
+                <div class="VerticalLines">
+                    <img class="Edu-icon" src="Education.png">
+                    <div class="Tenth-title">
+                        Class 10th(2018-2019)
+                    </div>
+                    <div class="Tenth-desc" style="color:#67dc07">
+                        I had completed my class 10th from Chapra Central School, Chapra, Bihar
+                        with 89.5 % .
+                    </div>
+                </div>
+
+                <div class="VerticalLines">
+                    <img class="Edu-icon" src="Education.png">
+                    <div class="Tenth-title">
+                        Class 12th(2020-2021)
+                    </div>
+                    <div class="Tenth-desc" style="color:#67dc07">
+                        I had completed my class 12th from J.D Public School, Chapra, Bihar
+                        with 81.8 % .
+                    </div>
+                </div>
+
+                <div class="VerticalLines">
+                    <img class="Edu-icon" src="Education.png">
+                    <div class="Tenth-title">
+                        Graduation(B.Tech)(2021-Ongoing)
+                    </div>
+                    <div class="Tenth-desc" style="color:#67dc07">
+                        I'm Currently pursuing B.Tech in Computer Science from Vellore Institute of technology, Bhopal
+                        with aggregate CGPA 9.02.
+                    </div>
+                </div>
+
+
+            </div>
+
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <h2 style="color:#ffc107">Certificates</h2><br>
+
+            <div class="certifi_List" >
+                <ul>
+                    <li>
+                        <p>
+                            <a href="https://drive.google.com/file/d/105AbknknZ1fU7Gqv363mwVIWk64wjBaI/view?usp=drive_link" target="_blank" style="color:white">MERN Full Stack </a>
+                        </p>
+
+
+
+                        
+                    </li><br>
+
+                    <li>
+                        <p>
+                            <a href="https://drive.google.com/file/d/1hLtte4djOi0PBJT6l93Oxp-kfAQQDmbp/view?usp=drive_link" target="_blank" style="color:white">Bits and Bytes of Computer Networking</a>
+                        </p>
+                    </li><br>
+
+                    <li>
+                        <p>
+                            <a href="https://drive.google.com/file/d/1qPLeCHcu_SfF1xzBTlKpxzsQDLPqurpW/view?usp=drive_link" target="_blank" style="color:white">NPTEL - Cloud Computing </a>
+                        </p>
+                    </li><br>
+
+                    <li>
+                        <p>
+                            <a href="https://drive.google.com/file/d/1KpcteYfo031sOGS_8V_Gu1uqztN8WkVo/view?usp=drive_link" target="_blank" style="color:white">Google Cloud Computing Foundation</a>
+                        </p>
+                    </li><br><br><br>
+
+                </ul>
+            </div>
+
+            <h2 style="color:#ffc107">Technical Skills</h2><br>
+            <img class="skill_icon" src="c++.png">
+            <img class="skill_icon" src="html.png">
+            <img class="skill_icon" src="css.png">
+            <img class="skill_icon" src="JS.png">
+            <img class="skill_icon" src="reactjs.png">
+            <br><br>
+
+            <div class="coding">
+                <ul>
+                    <li>
+                        <p>Achieved Institute Rank- 846 on  GeeksforGeeks</p>
+                    </li>
+                    <li>
+                        <p>CodeChef Global Rank- 125471 (1★)</p>
+                    </li>
+                    <li>
+                        <p>Solve over 100 problems across Coding Ninjas</p>
+                    </li>
+                    
+                </ul><br><br><br>
+            </div>
+
+            <h2 style="color:#ffc107">Coding PLatforms</h2><br>
+            <a href="https://www.naukri.com/code360/profile/VaishnaviKumari" target="_main">
+                <img class="skill_icon" src="Coding ninja.png">
+            </a>
+            <a href="https://www.geeksforgeeks.org/user/vaishnaviikumari/" target="_main">
+                <img class="skill_icon" src="GFG.png">
+            </a>
+            <a href="https://leetcode.com/u/Vaishnaviikumari/" target="_main">
+                <img class="skill_icon" src="leetcode.png">
+            </a>
+            <a href="https://github.com/VaishnaviiKumari" target="_main">
+                <img class="skill_icon" src="Github.jpg">
+            </a>
+            <a href="https://www.codechef.com/users/vaishnavikri" target="_main">
+                <img class="skill_icon" src="CodeChef.png">
+            </a>
+            <br><br><br>
+
+            
+
+            <h2 style="color:#ffc107">Hobbies</h2><br>
+            <div class="certifi_List">
+                <ul>
+                    <Li>
+                        <p>Sketching</p>
+                    </Li>
+                    <Li>
+                        <p>Watching Movies</p>
+                    </Li>
+                    
+                </ul><br><br>
+            </div>
+
+            <h2 style="color:#ffc107">Languages</h2><br>
+            <div class="certifi_List">
+                <ul>
+                    <li>
+                        <p>English</p>
+                    </li>
+                    <li>
+                        <p>Hindi</p>
+                    </li>
+                </ul>
+            </div>
+
+
+        </section>
+
+        <hr class="hr_class">
+
+
+        <section class="thirdSection" id="thirdSectionid">
+
+            <h1 style="color:#ffc107">PROJECTS</h1><br><br>
+
+            <h2 style="color:#ffc107">TelePlay</h2><br>
+            <div class="project_list">
+                <ul>
+                    <li>
+                        <p>Description :</p>
+                        <p>TelePlay is a website that provides comprehensive information about movies, including details on their plot, cast, and
+                            crew, as well as the streaming platforms where they are available for viewing.
+                            .</p>
+                        
+                    </li><br>
+
+                    <li>
+                        <p>Technology :</p>
+                        <p>HTML,CSS, JavaScript</p>
+                    </li><br>
+
+                    <li>
+                        <p>Team Project :</p>
+                        <p>4 members</p>
+                    </li><br>
+
+                    <li>
+                        <p>Role :</p>
+                        <p>Front-End Developer</p>
+                    </li><br>
+
+                    <li>
+                        <p>Repository Link :
+                            <a target="_main" href="https://github.com/VaishnaviiKumari" style="color:#67dc07">
+                                Click Here</a>
+                        </p>
+                    </li><br>
+
+                </ul><br><br>
+
+            </div>
+
+            <h2 style="color:#ffc107">Pahiya Wala</h2><br>
+            <div class="project_list">
+                <ul>
+                    <li>
+                        <p>Description :</p>
+                        <p> The website gives a series of informative web pages that provide detailed information on various types of electric vehicles,
+                            including their features, specifications, and benefits.</p>
+                        
+                    </li><br>
+
+                    <li>
+                        <p>Technology :</p>
+                        <p>HTML/CSS, JavaScript, ReactJs, PHP, SQL</p>
+                    </li><br>
+
+                    <li>
+                        <p>Team Project :</p>
+                        <p>4 members</p>
+                    </li><br>
+
+                    <li>
+                        <p>Role :</p>
+                        <p>Front-End Developer</p>
+                    </li><br>
+
+                    <li>
+                        <p>Repository Link :
+                            <a target="_main" href="https://aakashhkumar.github.io/Pahiyawala/" style="color:#67dc07">
+                                Click Here</a>
+                        </p>
+                    </li><br><br><br>
+                </ul>
+
+            </div>
+
+            <h2 style="color:#ffc107">AI Attorney</h2><br>
+            <div class="project_list">
+                <ul>
+                    <li>
+                        <p>Description :</p>
+                        <p> AI Attorney is an innovative platform leveraging artificial intelligence to simplify legal processes, empowering over 100
+                            individuals and small businesses in India with user-friendly interfaces, document verification, summary, and legal assistance
+                            recommendations.</p>
+                        
+                    </li><br>
+
+                    <li>
+                        <p>Technology :</p>
+                        <p> ReactJS, NodeJS, MongoDB, Tesseract OCR, Python.</p>
+                    </li><br>
+
+                    <li>
+                        <p>Team Project :</p>
+                        <p>8 members</p>
+                    </li><br>
+
+                    <li>
+                        <p>Role :</p>
+                        <p> Text Extractor</p>
+                    </li><br>
+
+                    <li>
+                        <p>Repository Link :
+                            <a target="_main" href="https://github.com/VaishnaviiKumari" style="color:#67dc07">
+                                Click Here</a>
+                        </p>
+                    </li><br>
+                </ul>
+
+            </div>
+
+        </section>
+
+        <hr class="hr_class">
+
+
+        <section class="forthSection" id="forthSectionid">
+            <h1 style="color:#ffc107">Contact Me</h1><br><br>
+
+            <a target="_main" href="mailto:vaishnavi.kumari2021@vitbhopal.ac.in">
+                <img class="contact_iconTwo" src="Gmail.png"></a>
+
+            <a target="_main" href="https://www.linkedin.com/in/vaishnavi-kumari-vk/">
+                <img class="contact_iconTwo" src="linkedin.png"></a>
+
+            <a target="_main" href="https://www.instagram.com/vaiishnaviiiii__/">
+                <img class="contact_iconTwo" src="insta logo.png"></a>
+
+            <!-- <a target="_main" href="https://www.naukri.com/code360/profile/VaishnaviKumari">
+                <img class="contact_icon" src="Coding-Ninjas-Logo.jpg"></a> -->
+
+
+        </section>
+
+        <hr class="hr_class">
+
+    </main>
+
+    <footer>
+        <div class="footer_class">
+            <div class="foter-first">
+                <h3 style="color:black">Vaishnavi's Portfolio</h3>
+            </div>
+
+        </div>
+        <div class="footer-textCenter">
+            Copyright &#169; Vaishnavi's Portfolio.com | All Right Reserved
+        </div>
+    </footer>
+
+</body>
+
+</html>
